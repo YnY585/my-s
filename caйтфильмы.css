@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+*a{
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: none;
+    color: #fff;
+    font-weight: 15px;
+}
+
+
+body{
+    height: 900px;
+    background: url(/сайтфильмы.html/img/cameron-venti-6QDvwq2Fjsc-unsplash-scaled.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0; 
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 158px;
+        box-shadow: 0 5px 10px #000;
+}
+header .logo{
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+    transition: .5s;
+}
+header .logo:hover{
+    transform: scale(1.2);
+}
+header nav ul li{
+    position: relative;
+    float: left;
+}
+header nav ul li a{
+    padding: 15px;
+    color: #000;
+    font-size: 15px;
+    display: block;
+}
+header nav ul li a:hover{
+    background: #000;
+    color: #fff;
+
+}
+nav ul li ul{
+    position: absolute;
+      left: 0;
+      width: 180px;
+      background: rgba(0, 0, 0,.1);
+      display: none;
+}
+nav ul li ul li{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0,.5)
+}
+nav ul li:hover > ul{
+    display: initial;
+}
+.trending {
+    padding-top: 50px;
+}
+
+.trending h3{
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.trending .projects{
+    color: #fff;
+    background: #d86d03;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: right;
+    display: block;
+    transition: all 500ms ease;
+}
+
+.trending .films{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.trending .films span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.trending .films .block img{
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.trending .films span img {
+position: relative;
+top: 5px;
+margin-right: 7px
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer ul li a button img{
+    align-items: center;
+}
+footer ul li a button img:hover{
+background-position: right 3px;
+}
+footer ul li a button{
+width: 40px;
+height: 50px;
+font-size: 24px;
+border: 1px solid black;
+border-radius: 4px;
+background:linear-gradient(to bottom, rgba(255, 166, 0, 0.836), rgba(46, 46, 46, 0.356));
+transition: 150ms ease;
+
+}
+footer ul li a button:hover{
+    transform: scale(1.1);
+}
+
+
+footer ul li{
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 15px;
+    
+
+}
+footer .next{
+    justify-content: right;
+    margin-left: 1853px;
+    position: relative;
+    top: 57px;
+}
+footer .previous{
+    position: relative;
+    bottom: 50px;
+    
+}
+footer span a button img{
+    width: 40px;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(255, 223, 43, 0.836), rgba(46, 46, 46, 0.356));
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: #000 1px;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+
+}
+footer span a button{
+    width: 40px;
+    height: 50px;
+    border-radius: 4px;
+    transition: 150ms ease;
+    background: linear-gradient(to bottom, rgba(187, 173, 48, 0.836), rgba(46, 46, 46, 0.356));
+}
+footer span a button:hover{
+    transform: scale(1.1);
+    
+}
